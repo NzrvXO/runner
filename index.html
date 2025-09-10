@@ -52,11 +52,11 @@
     <script>
         const hideFullScreenButton = "";
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/3.loader.js";
+        const loaderUrl = buildUrl + "/4.loader.js";
         const config = {
-            dataUrl: buildUrl + "/3.data",
-            frameworkUrl: buildUrl + "/3.framework.js",
-            codeUrl: buildUrl + "/3.wasm",
+            dataUrl: buildUrl + "/4.data",
+            frameworkUrl: buildUrl + "/4.framework.js",
+            codeUrl: buildUrl + "/4.wasm",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "NzrvXO",
             productName: "AI Run",
@@ -91,6 +91,7 @@
         }
 
         // The background image when loading the game. When building a build, the code changes depending on the project settings.
+        var backgroundUnity = "url('" + buildUrl + "/4.jpg') center / cover";
         
         loadingCover.style.display = "";
 
@@ -306,7 +307,7 @@
         }
 
         // Additional script modules
-LogStyledMessage('PluginYG2 v2.005  build: 8');
+LogStyledMessage('PluginYG2 v2.005  build: 9');
 
 
 let nowFullAdOpen = false;
